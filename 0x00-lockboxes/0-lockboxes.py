@@ -11,6 +11,6 @@ def canUnlockAll(boxes):
             all_box = set_box in boxes[key] and set_box != key
             if all_box:
                 break
-            if all_box is False:
-                return all_box
-        return True
+        if all_box is False:
+            return all_box
+    return True
