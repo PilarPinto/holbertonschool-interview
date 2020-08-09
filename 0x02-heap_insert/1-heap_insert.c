@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "binary_trees.h"
 
 /**
@@ -84,7 +86,7 @@ heap_t *parent_addr(heap_t *root)
 	if (!l_leaf || (l_leaf && r_leaf && size_l == size_r))
 		return (parent_addr(parent->left));
 
-	else if (!r_leaf || (l_leaf && r_leaf && size_l > size_l))
+	else if (!r_leaf || (l_leaf && r_leaf && size_l > size_r))
 		return (parent_addr(parent->right));
 	return (parent);
 }
