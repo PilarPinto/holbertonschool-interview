@@ -1,7 +1,7 @@
 #include "sandpiles.h"
 
 /**
- * is_stable - Function that sum check the values
+ * is_stable - Function that sum check the values in sandpile
  * @grid: sandpile to check
  * Return: 1 is not stable
  */
