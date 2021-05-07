@@ -6,7 +6,7 @@ import sys
 
 def count_words(subreddit, word_list, kw_cont={}, next_pg=None, reap_kw={}):
     """all hot posts by keyword"""
-    headers = {"User-Agent": "julgachancipa"}
+    headers = {"User-Agent": "product"}
 
     if next_pg:
         subRhot = requests.get('https://reddit.com/r/' + subreddit +
