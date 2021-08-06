@@ -5,7 +5,7 @@ Module where the integers representing the Pascal’s triangle
 
 
 def pascal_triangle(n):
-
+    '''Pascal priniting functions'''
     if n <= 0:
         return []
 
